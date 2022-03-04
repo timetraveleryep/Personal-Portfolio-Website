@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 45px;
+}
+.highlight {
+    color: orange;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.half {
+    width: 40%;
+    margin: auto;
+    float: left;
+    margin-left: 6%;
+}
+.banner {
+    background-image: url('./assets/banner.png');
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 12px 30px;
+}
+.half p {
+    margin-bottom: 30px;
+}
+.hero {
+    float: left;
+    width: 44%;
+    margin-left: 80px;
+}
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 20px;
+}
+.hero P {
+    margin-bottom: 30px;
+}
+.developer {
+    background-image: url('./assets/hero.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 50vh;
+    margin-bottom: 300px;
+}
+.Experience > h2 {
+    text-align: center;
+}
+.single {
+    box-shadow: 10px 10px 40px #808080;
+    height: 60%;
+    text-align: center;
+    padding: 0 14px;
+}
+.Experience {
+    height:  700px;
+    background-image: url('./assets/experience.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#Full-Stack {
+    border-left: 4px solid #000;
+    border-image: linear-gradient( #3A1C71, #D76D77, #FFAF7B);
+    border-image-slice: 1;
+}
+#Learner {
+    border-left: 4px solid #000;
+    border-image: linear-gradient( #3a6186, #89253e);
+    border-image-slice: 1;
+}
+footer {
+    text-align: center;
+    color: #181C32; 
+}
